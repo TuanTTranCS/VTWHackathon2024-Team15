@@ -1,8 +1,5 @@
 import localFont from "next/font/local";
 import "./styles/globals.css";
-import styles from "./layout.module.css";
-import Logo from "@/components/Navigation/Logo";
-import Navigation from "@/components/Navigation/Navigation";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -21,38 +18,13 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const user = true;
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div className={styles.wrapper}>
-          <div className={styles.headerWrapper}>
-            <p>Welcome to Coco-founder!</p>
-          </div>
-
-          <div className={styles.navbarWrapper}>
-            <Logo />
-            <Navigation />
-          </div>
-
-          <div className={styles.mainWrapper}>{children}</div>
-        </div>
+      >        
+          <div>{children}</div>
       </body>
     </html>
   );
 }
-
-// {user ? (
-//   <div className={styles.headerWrapper}>
-//     <p className={styles.title}>Welcome to Coco-founder</p>
-//   </div>
-// ) : (
-//   <div className={styles.headerWrapper}>
-//     <p className={styles.title}>Welcome to Coco-founder</p>
-//   </div>
-// )}
-
-// left navbar color: 241, 241, 241
-
