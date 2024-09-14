@@ -18,7 +18,7 @@ const LogoWrapper = ({ children }) => {
 const Icon = () => {
   return (
     <div>
-      <Smile size="1.25rem" />
+      <Smile size="1.875rem" />
     </div>
   );
 };

@@ -1,20 +1,49 @@
-import { ModeToggle } from "@/components/mode-toggle";
-import { UserNav } from "@/components/admin-panel/user-nav";
-import { SheetMenu } from "@/components/admin-panel/sheet-menu";
+import Link from "next/link";
+import { Home, Clipboard, Inbox, Settings } from "react-feather";
 
-export function Navbar({ title }) {
+function Navbar() {
   return (
-    <header className="sticky top-0 z-10 w-full bg-background/95 shadow backdrop-blur supports-[backdrop-filter]:bg-background/60 dark:shadow-secondary">
-      <div className="mx-4 sm:mx-8 flex h-14 items-center">
-        <div className="flex items-center space-x-4 lg:space-x-0">
-          <SheetMenu />
-          <h1 className="font-bold">{title}</h1>
-        </div>
-        <div className="flex flex-1 items-center justify-end">
-          <ModeToggle />
-          <UserNav />
-        </div>
-      </div>
-    </header>
+    <div className="flex w-64 flex-col">
+      <nav className="flex flex-col gap-1 px-4 py-6">
+        <Link
+          href="#"
+          className="flex items-center gap-4 rounded-md px-3 py-4 text-lg font-medium transition-colors hover:bg-muted hover:text-foreground focus:bg-muted focus:text-foreground focus:outline-none"
+          prefetch={false}
+        >
+          <Home size="1.25rem" />
+          Home
+        </Link>
+
+        <Link
+          href="#"
+          className="flex items-center gap-4 rounded-md px-3 py-4 text-lg font-medium transition-colors hover:bg-muted hover:text-foreground focus:bg-muted focus:text-foreground focus:outline-none"
+          prefetch={false}
+        >
+          <Clipboard size="1.25rem" />
+          Dashboard
+        </Link>
+
+        <Link
+          href="#"
+          className="flex items-center gap-4 rounded-md px-3 py-4 text-lg font-medium transition-colors hover:bg-muted hover:text-foreground focus:bg-muted focus:text-foreground focus:outline-none"
+          prefetch={false}
+        >
+          <Inbox size="1.25rem" />
+          Inbox
+        </Link>
+
+        <Link
+          href="#"
+          className="flex items-center gap-4 rounded-md px-3 py-4 text-lg font-medium transition-colors hover:bg-muted hover:text-foreground focus:bg-muted focus:text-foreground focus:outline-none"
+          prefetch={false}
+        >
+          <Settings size="1.25rem" />
+          Settings
+        </Link>
+      </nav>
+    </div>
   );
 }
+
+export default Navbar;
+
