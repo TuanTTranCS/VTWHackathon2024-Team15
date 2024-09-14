@@ -26,9 +26,9 @@
   grid-template-areas:
     "logo"
     "navigation";
-  grid-template-rows: 1fr 9fr;
+  grid-template-rows: 1.5fr 8.5fr;
   grid-template-columns: 1fr;
-  background: lightblue;
+  background: var(--background);
   height: 100%;
 }
 

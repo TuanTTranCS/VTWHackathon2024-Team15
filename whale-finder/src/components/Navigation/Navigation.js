@@ -1,7 +1,12 @@
 import styles from "./Navigation.module.css";
+import Navbar from "./Navbar";
 
 function Navigation() {
-  return <NavigationWrapper>Navigation</NavigationWrapper>;
+  return (
+    <NavigationWrapper>
+      <Navbar />
+    </NavigationWrapper>
+  );
 }
 
 const NavigationWrapper = ({ children }) => {
