@@ -34,7 +34,7 @@
 
 .mainWrapper {
   grid-area: main;
-  background: lightcoral;
+  /* background: lightcoral; */
 }
 
 .title {

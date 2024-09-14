@@ -1,15 +1,26 @@
-import DashboardCard from './DashboardCard';
+import { Card, CardContent } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
 import React from 'react'
 import './dashboard.css';
 
 export default function Dashboard() {
-    const CardDescription = ["There are 5000 profiles that match your needs!", "You have 4 saved profiles to take a look at!"];
-    const cardButton = ["Discover profiles", "See who I've saved"];
-
     return (
         <div className="dashboard-container">
-            <DashboardCard description={CardDescription[0]} buttonText={cardButton[0]} />
-            <DashboardCard description={CardDescription[1]} buttonText={cardButton[1]} />
+            <Card className="dashboard-card">
+                <CardContent className="first-card-text">
+                    <p>There are <strong>5000</strong> profiles that match your needs!</p>
+                </CardContent>
+                <Button variant="outline" className="discover-btn">Discover profiles</Button>
+            </Card>
+
+            <Card className="dashboard-card">
+                <CardContent className="second-card-text">
+                    <p>You have <strong>4</strong> saved profiles to take a look at!</p>
+                </CardContent>
+                <Button variant="outline" className="save-btn">See who I've saved</Button>
+            </Card>
+
+
         </div>
     );
 }

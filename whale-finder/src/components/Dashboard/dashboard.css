@@ -1,19 +1,38 @@
 .dashboard-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
-    gap: 20px; /* Space between the cards */
-    padding: 20px; /* Padding around the grid */
-  }
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px 30px;
+}
 
-  .dashboard-card {
-    background: var(--card); /* Use the card background color */
-    color: var(--foreground); /* Use the card foreground color */
-    padding: 20px; /* Padding inside the card */
-    border-radius: var(--radius); /* Rounded corners */
+.dashboard-card {
+    background: var(--card);
+    color: var(--background);
+    padding: 10px;
+    border-color: black;
+    border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
+}
+
+.discover-btn {
+    border-color: blue;
+    background: blue;
+    color: white;
+    border-radius: var(--radius);
+    margin: 0 30px;
+}
+
+.save-btn {
+    border-color: blue;
+    background: white;
+    color: blue;
+    border-radius: var(--radius);
+    margin: 0 30px;
 }
 
 @media (max-width: 768px) {
     .dashboard-container {
-    grid-template-columns: 1fr; /* Stack the cards vertically on smaller screens */
+    grid-template-columns: 1fr;
     }
 }  
