@@ -50,18 +50,6 @@ const RegisterForm = () => {
                 <Input id="phone" placeholder="+1 (555) 000-0000" type="tel" required />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="dob">Date of birth</Label>
-                <Input id="dob" type="date" required />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="address">Address</Label>
-                <Input id="address" placeholder="123 Main St, City, Country" required />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="occupation">Occupation</Label>
-                <Input id="occupation" placeholder="Software Developer" required />
-              </div>
-              <div className="space-y-2">
                 <Label htmlFor="education">Highest level of education</Label>
                 <Select required>
                   <SelectTrigger id="education">
