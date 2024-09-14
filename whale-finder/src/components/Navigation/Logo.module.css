@@ -1,3 +1,15 @@
 .LogoWrapper {
   grid-area: logo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.Icon {
+  
+}
+
+.BrandName {
+  margin-left: 16px;
 }
