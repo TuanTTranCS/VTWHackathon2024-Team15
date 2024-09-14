@@ -229,28 +229,81 @@
         "areasOfExpertise": ["Engineering", "Product"],
         "agePreference": "25-45"
       }
+    }, {
+      "basic": {
+        "name": "Coco",
+        "email": "cocofounder@gmail.com",
+        "location": "Vancouver BC",
+        "linkedinUrl": "https://www.linkedin.com/in/coco-founder-234567",
+        "selfIntroduction": "As a recent graduate in Computer Science, I'm passionate about leveraging technology to create positive environmental impact. My academic background, combined with hands-on experience in software development internships, has equipped me with a strong foundation in AI and machine learning. I'm particularly interested in applying these technologies to solve complex sustainability challenges.",
+        "whatToKnow": "I'm an avid outdoor enthusiast and this has fueled my commitment to environmental conservation. In my spare time, I volunteer for local conservation efforts and have developed a small app to help hikers track and report trail conditions in British Columbia's parks.",
+        "education": {
+          "school": "University of British Columbia",
+          "major": "Bachelor of Science",
+          "years": "2019-2023"
+        },
+        "employment": {
+          "company": "GreenTech Solutions",
+          "position": "Junior Software Developer",
+          "time": "2023-present"
+        },
+        "technical": "Y",
+        "gender": "Non-binary",
+        "birthdate": "2001-06-12"
+      },
+      "idea": {
+        "overview": "I'm developing an AI-powered platform that uses satellite imagery and machine learning to monitor and predict deforestation patterns. The system will provide real-time alerts to conservation organizations and local authorities, enabling rapid response to illegal logging activities. Additionally, it will offer data-driven insights for reforestation planning and sustainable forest management.",
+        "setOnIdea": "Y",
+        "coFounder": {
+          "hasCoFounder": "N"
+        },
+        "areasOfExpertise": ["Engineering", "Product"],
+        "interests": "Environmental conservation, artificial intelligence, satellite imagery analysis, forestry management, climate change mitigation",
+        "equityExpectation": "As a technical co-founder bringing the core technology and product development skills, I would expect a significant equity stake, around 40-50%. However, I'm open to discussions based on the experience and contributions of potential co-founders."
+      },
+      "coFounderPreferences": {
+        "type": "non-technical",
+        "areasOfExpertise": ["Operations & Strategy", "Sales & Marketing"],
+        "agePreference": "25-45"
+      }
     },
     {
       "basic": {
-        "name": "Aisha Patel",
-        "email": "aisha.patel@email.com",
-        "location": "Mumbai",
-        "linkedinUrl": "https://www.linkedin.com/in/aisha-patel-789012",
-        "selfIntroduction": "As an environmental engineer turned cleantech entrepreneur, I've dedicated my career to developing sustainable solutions for urban environments. My expertise lies in waste management technologies and circular economy principles. I've led projects implementing smart waste collection systems in several major cities across India, significantly improving efficiency and reducing environmental impact.",
-        "whatToKnow": "I'm a strong advocate for integrating traditional knowledge with modern technology to create sustainable solutions. I regularly collaborate with local communities and government bodies to ensure that technological interventions are culturally appropriate and community-driven.",
+        "name": "Ethan Nakamura",
+        "email": "ethan.nakamura@email.com",
+        "location": "Tokyo",
+        "linkedinUrl": "https://www.linkedin.com/in/ethan-nakamura-890123",
+        "selfIntroduction": "With over 15 years of experience in the automotive industry, specializing in electric vehicle (EV) technology, I've led teams in developing innovative powertrain systems and battery management solutions. My expertise spans both technical development and strategic planning, allowing me to bridge the gap between engineering challenges and market demands in the rapidly evolving EV sector.",
+        "whatToKnow": "I'm deeply committed to advancing sustainable transportation solutions. Outside of work, I'm an active member of several international EV associations and regularly contribute to industry publications on the future of mobility.",
         "education": {
-          "school": "Indian Institute of Technology Bombay",
-          "major": "Environmental Engineering",
-          "years": "2010-2014"
+          "school": "Tokyo Institute of Technology",
+          "major": "Electrical Engineering",
+          "years": "2000-2004"
         },
         "employment": {
-          "company": "GreenCity Solutions",
-          "position": "Founder & CTO",
-          "time": "2017-present"
+          "company": "Future Mobility Corp",
+          "position": "Director of EV Technology",
+          "time": "2015-present"
         },
         "technical": "Y",
-        "gender": "Female",
-        "birthdate": "1992-09-05"
+        "gender": "Male",
+        "birthdate": "1982-11-20"
       },
       "idea": {
-        "overview": "I'm developing an AI-powered system for optimizing urban
+        "overview": "I'm conceptualizing an advanced battery swapping system for electric vehicles that addresses the current limitations of charging infrastructure. The system will use robotics and AI to automate the battery exchange process, significantly reducing 'refueling' times for EVs. Additionally, it will incorporate a smart grid integration feature to optimize energy usage and storage based on real-time electricity demand and pricing.",
+        "setOnIdea": "Y",
+        "coFounder": {
+          "hasCoFounder": "N"
+        },
+        "areasOfExpertise": ["Engineering", "Product", "Operations & Strategy"],
+        "interests": "Electric vehicle technology, energy storage systems, smart grid integration, sustainable transportation, urban mobility solutions",
+        "equityExpectation": "Given my extensive industry experience and the critical role I'll play in both technology development and strategic planning, I would expect a substantial equity stake, around 55-65%. I'm open to adjusting this based on the contributions and expertise of potential co-founders."
+      },
+      "coFounderPreferences": {
+        "type": "non-technical",
+        "areasOfExpertise": ["Sales & Marketing", "Operations & Strategy"],
+        "agePreference": "35-50"
+      }
+    }
+  ]
+}
