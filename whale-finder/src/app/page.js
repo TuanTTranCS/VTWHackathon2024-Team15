@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+
 export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-100 to-gray-300">
       <header className="bg-white shadow-md p-6">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-gray-800">Whali</h1>
+          <h1 className="text-3xl font-bold text-gray-800">Coco-Founder</h1>
           <div className="space-x-4">
             <Button variant="outline" asChild>
               <Link href="auth/login">Login</Link>
