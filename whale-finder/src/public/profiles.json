@@ -1,0 +1,256 @@
+{
+  "profiles": [
+    {
+      "basic": {
+        "name": "Emma Thompson",
+        "email": "emma.thompson@email.com",
+        "location": "London",
+        "linkedinUrl": "https://www.linkedin.com/in/emma-thompson-123456",
+        "selfIntroduction": "As a passionate software engineer with a keen interest in artificial intelligence, I've dedicated my career to developing innovative solutions that push the boundaries of technology. My experience ranges from startups to multinational corporations, where I've honed my skills in full-stack development and machine learning. I thrive in collaborative environments and am always eager to tackle new challenges that allow me to grow both personally and professionally.",
+        "whatToKnow": "I'm deeply committed to using technology for social good. In my spare time, I volunteer with local STEM education programs, inspiring the next generation of tech enthusiasts. I'm also an avid rock climber and believe that the problem-solving skills I've developed in this sport translate well to my professional life.",
+        "education": {
+          "school": "University of Cambridge",
+          "major": "Computer Science",
+          "years": "2012-2016"
+        },
+        "employment": {
+          "company": "Tech Innovations Ltd.",
+          "position": "Senior Software Engineer",
+          "time": "2018-present"
+        },
+        "technical": "Y",
+        "gender": "Female",
+        "birthdate": "1994-05-15"
+      },
+      "idea": {
+        "overview": "I'm developing an AI-powered personal finance assistant that helps individuals optimize their spending, saving, and investing habits. The app will use machine learning algorithms to analyze spending patterns, provide personalized recommendations, and automate financial decisions based on user-defined goals and risk tolerance.",
+        "setOnIdea": "Y",
+        "coFounder": {
+          "hasCoFounder": "N"
+        },
+        "areasOfExpertise": ["Engineering", "Product"],
+        "interests": "Artificial intelligence, financial technology, user experience design, data privacy and security, behavioral economics",
+        "equityExpectation": "As a technical co-founder bringing the core product to life, I would expect a significant equity stake, ideally in the range of 40-50%. However, I'm open to discussing the specifics based on the contributions and experience of potential co-founders."
+      },
+      "coFounderPreferences": {
+        "type": "non-technical",
+        "areasOfExpertise": ["Sales & Marketing", "Operations & Strategy"],
+        "agePreference": "25-40"
+      }
+    },
+    {
+      "basic": {
+        "name": "Alex Chen",
+        "email": "alex.chen@email.com",
+        "location": "San Francisco",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-chen-789012",
+        "selfIntroduction": "I'm a product manager with a background in user experience design and a passion for creating intuitive, impactful products. My career has spanned both B2B and B2C sectors, where I've led cross-functional teams to deliver successful products from concept to launch. I'm driven by the desire to solve real-world problems through technology and design thinking.",
+        "whatToKnow": "I'm an advocate for diversity and inclusion in tech. I've been involved in mentorship programs for underrepresented groups in the industry and believe that diverse teams create better products. Outside of work, I'm an amateur photographer and love exploring new cultures through travel.",
+        "education": {
+          "school": "Stanford University",
+          "major": "Human-Computer Interaction",
+          "years": "2013-2017"
+        },
+        "employment": {
+          "company": "InnovateTech",
+          "position": "Senior Product Manager",
+          "time": "2019-present"
+        },
+        "technical": "N",
+        "gender": "Non-binary",
+        "birthdate": "1995-09-22"
+      },
+      "idea": {
+        "overview": "I'm envisioning a platform that revolutionizes remote team collaboration by creating immersive virtual workspaces. Using VR and AR technologies, the platform will allow distributed teams to feel like they're working in the same physical space, enhancing communication, creativity, and team bonding.",
+        "setOnIdea": "Y",
+        "coFounder": {
+          "hasCoFounder": "N"
+        },
+        "areasOfExpertise": ["Product", "Design"],
+        "interests": "Virtual and augmented reality, remote work trends, team dynamics, user interface design, workplace psychology",
+        "equityExpectation": "Given my experience and the critical role I'll play in product strategy and design, I'm looking for an equity stake around 30-40%. I'm flexible and willing to discuss based on the team composition and individual contributions."
+      },
+      "coFounderPreferences": {
+        "type": "technical",
+        "areasOfExpertise": ["Engineering"],
+        "agePreference": "25-45"
+      }
+    },
+    {
+      "basic": {
+        "name": "Olivia Martinez",
+        "email": "olivia.martinez@email.com",
+        "location": "New York City",
+        "linkedinUrl": "https://www.linkedin.com/in/olivia-martinez-345678",
+        "selfIntroduction": "As a marketing strategist with over a decade of experience in the tech industry, I've helped numerous startups and established companies build their brand presence and acquire customers. My expertise lies in digital marketing, content strategy, and growth hacking. I'm passionate about leveraging data-driven insights to create compelling marketing campaigns that resonate with target audiences.",
+        "whatToKnow": "I'm bilingual (English and Spanish) and have successfully led marketing efforts in both North American and Latin American markets. I'm also deeply interested in sustainable business practices and have been instrumental in developing eco-friendly marketing initiatives for previous employers.",
+        "education": {
+          "school": "Columbia University",
+          "major": "Marketing and Communications",
+          "years": "2008-2012"
+        },
+        "employment": {
+          "company": "GrowthBoost",
+          "position": "Head of Marketing",
+          "time": "2017-present"
+        },
+        "technical": "N",
+        "gender": "Female",
+        "birthdate": "1990-03-10"
+      },
+      "idea": {
+        "overview": "I'm developing a platform that connects small local businesses with micro-influencers to create authentic, community-driven marketing campaigns. The idea is to help small businesses compete with larger corporations by leveraging the power of local influencers and word-of-mouth marketing in a scalable, tech-enabled way.",
+        "setOnIdea": "Y",
+        "coFounder": {
+          "hasCoFounder": "Y",
+          "coFounderLinkedIn": "https://www.linkedin.com/in/michael-wong-901234",
+          "coFounderTechnical": "Y"
+        },
+        "areasOfExpertise": ["Sales & Marketing", "Operations & Strategy"],
+        "interests": "Influencer marketing, small business economics, community building, social media trends, local commerce",
+        "equityExpectation": "As a co-founder bringing significant industry experience and connections, I would expect an equal equity split with my technical co-founder, around 40-45% each, leaving room for potential early employees or advisors."
+      },
+      "coFounderPreferences": {
+        "type": "technical",
+        "areasOfExpertise": ["Engineering", "Product"],
+        "agePreference": "30-45"
+      }
+    },
+    {
+      "basic": {
+        "name": "Ryan O'Connor",
+        "email": "ryan.oconnor@email.com",
+        "location": "Dublin",
+        "linkedinUrl": "https://www.linkedin.com/in/ryan-oconnor-567890",
+        "selfIntroduction": "I'm a full-stack developer with a strong background in blockchain technology and decentralized applications. My journey in tech started with traditional web development, but I quickly became fascinated by the potential of blockchain to revolutionize various industries. I've contributed to several open-source projects and have experience building smart contracts and decentralized finance (DeFi) applications.",
+        "whatToKnow": "I'm a firm believer in the power of decentralized systems to create more equitable and transparent financial ecosystems. Outside of coding, I'm an active participant in blockchain governance discussions and regularly speak at crypto meetups and conferences.",
+        "education": {
+          "school": "Trinity College Dublin",
+          "major": "Computer Engineering",
+          "years": "2014-2018"
+        },
+        "employment": {
+          "company": "BlockChain Solutions",
+          "position": "Lead Developer",
+          "time": "2020-present"
+        },
+        "technical": "Y",
+        "gender": "Male",
+        "birthdate": "1996-11-30"
+      },
+      "idea": {
+        "overview": "I'm working on a decentralized identity verification system that allows users to maintain control over their personal data while providing a secure and efficient way for businesses to verify customer identities. The system will use blockchain technology to create tamper-proof digital identities, reducing fraud and streamlining KYC processes across various industries.",
+        "setOnIdea": "Y",
+        "coFounder": {
+          "hasCoFounder": "N"
+        },
+        "areasOfExpertise": ["Engineering", "Product"],
+        "interests": "Blockchain technology, cryptography, digital identity, privacy-preserving technologies, regulatory compliance in fintech",
+        "equityExpectation": "As the technical founder bringing the core technology and product to life, I would expect a significant equity stake, around 50-60%. I'm open to adjusting this based on the contributions of potential co-founders and early team members."
+      },
+      "coFounderPreferences": {
+        "type": "non-technical",
+        "areasOfExpertise": ["Operations & Strategy", "Sales & Marketing"],
+        "agePreference": "28-45"
+      }
+    },
+    {
+      "basic": {
+        "name": "Sophia Kim",
+        "email": "sophia.kim@email.com",
+        "location": "Seoul",
+        "linkedinUrl": "https://www.linkedin.com/in/sophia-kim-123789",
+        "selfIntroduction": "As a data scientist with a background in biomedical engineering, I've dedicated my career to leveraging AI and machine learning in healthcare. My expertise lies in developing predictive models for disease diagnosis and personalized treatment plans. I'm passionate about bridging the gap between cutting-edge technology and practical medical applications to improve patient outcomes.",
+        "whatToKnow": "I'm a strong advocate for ethical AI in healthcare and have published several papers on ensuring fairness and transparency in medical AI systems. In my free time, I volunteer at local hospitals, teaching basic coding and data analysis to healthcare professionals.",
+        "education": {
+          "school": "Seoul National University",
+          "major": "Biomedical Engineering",
+          "years": "2011-2015"
+        },
+        "employment": {
+          "company": "HealthTech Innovations",
+          "position": "Senior Data Scientist",
+          "time": "2018-present"
+        },
+        "technical": "Y",
+        "gender": "Female",
+        "birthdate": "1993-07-18"
+      },
+      "idea": {
+        "overview": "I'm developing an AI-powered platform that analyzes medical imaging data (MRI, CT scans, X-rays) to assist radiologists in early detection of various diseases. The system will use advanced machine learning algorithms to identify potential abnormalities, prioritize urgent cases, and provide detailed analysis to support accurate diagnoses.",
+        "setOnIdea": "Y",
+        "coFounder": {
+          "hasCoFounder": "N"
+        },
+        "areasOfExpertise": ["Engineering", "Product"],
+        "interests": "Artificial intelligence in healthcare, medical imaging technology, regulatory compliance in healthtech, data privacy in healthcare, computer vision",
+        "equityExpectation": "Given my specialized expertise and the critical role I'll play in developing the core technology, I would expect a significant equity stake, around 45-55%. I'm open to discussions based on the contributions of potential co-founders and the overall team structure."
+      },
+      "coFounderPreferences": {
+        "type": "non-technical",
+        "areasOfExpertise": ["Operations & Strategy", "Sales & Marketing"],
+        "agePreference": "30-50"
+      }
+    },
+    {
+      "basic": {
+        "name": "Lucas Fernandez",
+        "email": "lucas.fernandez@email.com",
+        "location": "Buenos Aires",
+        "linkedinUrl": "https://www.linkedin.com/in/lucas-fernandez-456123",
+        "selfIntroduction": "I'm a serial entrepreneur with a background in fintech and a passion for financial inclusion. Over the past decade, I've founded and scaled two successful startups in the Latin American market, focusing on mobile payment solutions and microfinance platforms. My strengths lie in identifying market opportunities, building strategic partnerships, and leading cross-functional teams to execute ambitious visions.",
+        "whatToKnow": "I'm deeply committed to using technology to address economic inequality in developing regions. I regularly mentor young entrepreneurs and have established a non-profit organization that provides financial literacy education to underserved communities.",
+        "education": {
+          "school": "Universidad de Buenos Aires",
+          "major": "Business Administration",
+          "years": "2005-2009"
+        },
+        "employment": {
+          "company": "FinInclusion",
+          "position": "Founder & CEO",
+          "time": "2015-present"
+        },
+        "technical": "N",
+        "gender": "Male",
+        "birthdate": "1987-02-14"
+      },
+      "idea": {
+        "overview": "I'm conceptualizing a blockchain-based platform that facilitates cross-border microlending and remittances for underbanked populations in Latin America. The platform will leverage decentralized finance (DeFi) protocols to create a more efficient, transparent, and accessible financial ecosystem for individuals and small businesses traditionally excluded from the banking system.",
+        "setOnIdea": "Y",
+        "coFounder": {
+          "hasCoFounder": "N"
+        },
+        "areasOfExpertise": ["Operations & Strategy", "Sales & Marketing"],
+        "interests": "Financial inclusion, blockchain technology, microfinance, remittance systems, regulatory frameworks in emerging markets",
+        "equityExpectation": "As an experienced entrepreneur bringing industry expertise, network, and strategic vision, I would expect a significant equity stake, around 50-60%. I'm open to adjusting based on the contributions and experience of potential co-founders."
+      },
+      "coFounderPreferences": {
+        "type": "technical",
+        "areasOfExpertise": ["Engineering", "Product"],
+        "agePreference": "25-45"
+      }
+    },
+    {
+      "basic": {
+        "name": "Aisha Patel",
+        "email": "aisha.patel@email.com",
+        "location": "Mumbai",
+        "linkedinUrl": "https://www.linkedin.com/in/aisha-patel-789012",
+        "selfIntroduction": "As an environmental engineer turned cleantech entrepreneur, I've dedicated my career to developing sustainable solutions for urban environments. My expertise lies in waste management technologies and circular economy principles. I've led projects implementing smart waste collection systems in several major cities across India, significantly improving efficiency and reducing environmental impact.",
+        "whatToKnow": "I'm a strong advocate for integrating traditional knowledge with modern technology to create sustainable solutions. I regularly collaborate with local communities and government bodies to ensure that technological interventions are culturally appropriate and community-driven.",
+        "education": {
+          "school": "Indian Institute of Technology Bombay",
+          "major": "Environmental Engineering",
+          "years": "2010-2014"
+        },
+        "employment": {
+          "company": "GreenCity Solutions",
+          "position": "Founder & CTO",
+          "time": "2017-present"
+        },
+        "technical": "Y",
+        "gender": "Female",
+        "birthdate": "1992-09-05"
+      },
+      "idea": {
+        "overview": "I'm developing an AI-powered system for optimizing urban
