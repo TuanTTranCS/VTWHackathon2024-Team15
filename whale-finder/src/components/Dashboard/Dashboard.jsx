@@ -1,6 +1,6 @@
-import DashboardCard from '../../components/DashboardCard';
+import DashboardCard from './DashboardCard';
 import React from 'react'
-import '../../styles/dashboard.css';
+import './dashboard.css';
 
 export default function Dashboard() {
     const CardDescription = ["There are 5000 profiles that match your needs!", "You have 4 saved profiles to take a look at!"];
