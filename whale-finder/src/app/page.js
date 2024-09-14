@@ -1,9 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import Dashboard from './dashboard/Dashboard.jsx';
-import Inbox from './inbox/Inbox.jsx';
-
 export default function Home() {
 
   return (
