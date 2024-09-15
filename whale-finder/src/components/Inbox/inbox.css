@@ -1,6 +1,7 @@
 .inbox-container {
     display: flex;
     height: 100vh;
+    background-color: #fafafa;
 }
   
 .sidebar {
@@ -26,8 +27,19 @@
     flex-direction: column;
 }
 
+.card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-preview-text-container {
+    margin: 20px 16px;
+}
+
 .chat-user-name {
     font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .chat-preview {
@@ -42,11 +54,13 @@
 
 .chat-messages {
     flex: 1;
-    margin-bottom: 16px;
+    gap: 16px;
+    background-color: white;
+    margin: 16px 0;
 }
 
 .message {
-    margin: 16px 16px;
+    margin: 40px 24px;
     display: flex;
     flex-direction: row;
     justify-items: space-between;
