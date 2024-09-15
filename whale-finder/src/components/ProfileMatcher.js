@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -8,24 +9,32 @@ const ProfileMatcher = ({ openai }) => {
   const [embeddings, setEmbeddings] = useState([]);
   const [rankedProfiles, setRankedProfiles] = useState([]);
   const [selectedProfileIndex, setSelectedProfileIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const fetchProfiles = async () => {
-      const fetchedProfiles = getProfiles();
-      setProfiles(fetchedProfiles);
+    const fetchProfilesAndEmbeddings = async () => {
+      try {
+        setIsLoading(true);
+        const fetchedProfiles = await getProfiles();
+        setProfiles(fetchedProfiles);
 
-      const embeddingPromises = fetchedProfiles.map(profile =>
-        openai.embeddings.create({
-          model: "text-embedding-3-small",
-          input: profileToString(profile),
-        })
-      );
+        const embeddingPromises = fetchedProfiles.map(profile =>
+          openai.embeddings.create({
+            model: "text-embedding-3-small",
+            input: profileToString(profile),
+          })
+        );
 
-      const embeddings = await Promise.all(embeddingPromises);
-      setEmbeddings(embeddings.map(e => e.data[0].embedding));
+        const embeddings = await Promise.all(embeddingPromises);
+        setEmbeddings(embeddings.map(e => e.data[0].embedding));
+        setIsLoading(false);
+      } catch (error) {
+        console.error("Error fetching profiles or creating embeddings:", error);
+        setIsLoading(false);
+      }
     };
 
-    fetchProfiles();
+    fetchProfilesAndEmbeddings();
   }, [openai]);
 
   const cosineSimilarity = (vecA, vecB) => {
@@ -51,6 +60,10 @@ const ProfileMatcher = ({ openai }) => {
     rankProfiles(index);
   };
 
+  if (isLoading) {
+    return <div>Loading profiles and creating embeddings...</div>;
+  }
+
   return (
     <div className="space-y-4">
       <div>
@@ -67,17 +80,23 @@ const ProfileMatcher = ({ openai }) => {
       </div>
       <div>
         <h2 className="text-2xl font-bold">Ranked Profiles</h2>
-        {rankedProfiles.map((profile, index) => (
-          <Card key={index} className="mb-4">
-            <CardHeader>
-              <CardTitle>{profile.basic.name} - Similarity: {(profile.similarity * 100).toFixed(2)}%</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p><strong>Self Intro:</strong> {profile.basic.selfIntroduction.substring(0, 100)}...</p>
-              <p><strong>Idea Overview:</strong> {profile.idea.overview.substring(0, 100)}...</p>
-            </CardContent>
-          </Card>
-        ))}
+        {rankedProfiles.map((profile, index) => {
+          const displayInfo = getProfileDisplayInfo(profile);
+          return (
+            <Card key={index} className="mb-4">
+              <CardHeader>
+                <CardTitle>{displayInfo.name} - Similarity: {(profile.similarity * 100).toFixed(2)}%</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p><strong>Location:</strong> {displayInfo.location}</p>
+                <p><strong>Age:</strong> {displayInfo.age}</p>
+                <p><strong>Education:</strong> {displayInfo.education}</p>
+                <p><strong>Employment:</strong> {displayInfo.employment}</p>
+                <p><strong>Idea Overview:</strong> {displayInfo.ideaOverview.substring(0, 100)}...</p>
+              </CardContent>
+            </Card>
+          );
+        })}
       </div>
     </div>
   );

@@ -1,10 +1,7 @@
-import fs from 'fs';
-import path from 'path';
-
-export function getProfiles() {
-  const filePath = path.join(process.cwd(), 'public', 'profiles.json');
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  const data = JSON.parse(fileContents);
+"use client"
+export async function getProfiles() {
+  const response = await fetch('../public/profiles.json');
+  const data = await response.json();
   return data.profiles;
 }
 
