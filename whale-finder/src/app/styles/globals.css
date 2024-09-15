@@ -84,6 +84,7 @@ html, body {
     --text-primary: white;
     --color-black: black;
     --color-white: white;
+    --color-gray: rgb(228, 231, 234);
   }
 }
 

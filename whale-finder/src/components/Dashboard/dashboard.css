@@ -33,7 +33,6 @@
 
 .save-btn {
     border-color: blue;
-    background: white;
     color: blue;
     border-radius: var(--radius);
     margin: 0 30px;
