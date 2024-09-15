@@ -2,13 +2,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin: 20px 30px;
+    margin: 3% 30px;
 }
 
 .dashboard-card {
     background: var(--card);
     color: var(--background);
-    padding: 10px;
+    padding: 30px;
     border-color: black;
     border-radius: var(--radius);
     display: flex;
@@ -28,7 +28,7 @@
     background: blue;
     color: white;
     border-radius: var(--radius);
-    margin: 0 30px;
+    margin: 0 40px;
 }
 
 .save-btn {
@@ -36,7 +36,7 @@
     background: white;
     color: blue;
     border-radius: var(--radius);
-    margin: 0 30px;
+    margin: 0 40px;
 }
 
 @media (max-width: 768px) {
