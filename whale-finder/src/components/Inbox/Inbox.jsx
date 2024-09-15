@@ -1,5 +1,5 @@
-import { Avatar, AvatarImage } from '../../components/ui/Avatar';
-import { Card, CardHeader, CardTitle, CardDescription } from '../../components/ui/card';
+import { Avatar, AvatarImage, AvatarFallback } from '../../components/ui/Avatar';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../../components/ui/card';
 import { Input } from '../../components/ui/input';
 import { Button } from '../../components/ui/button';
 import { Separator } from '../../components/ui/separator';
@@ -8,56 +8,64 @@ import './inbox.css';
 
 export default function Inbox() {
   return (
-    <div className="flex h-screen">
+    <div className="inbox-container">
       {/* Sidebar */}
-      <div className="w-1/3 p-4 border-r">
-        <Card className="mb-4">
-          <CardHeader>
+      <div className="sidebar">
+        <Card className="card">
+          <CardHeader className="card-header">
             <Avatar>
-              <AvatarImage src="/avatar1.jpg" />
+              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-            <CardTitle>Founder-coco Coco</CardTitle>
-            <CardDescription>Hi, I'm excited to get started...</CardDescription>
+            <div className="chat-preview-text-container">
+              <CardTitle className="chat-user-name">Founder-coco Coco</CardTitle>
+              <CardDescription className="chat-preview">Hi, I'm excited to get started...</CardDescription>
+            </div>
           </CardHeader>
         </Card>
-        <Card>
-          <CardHeader>
+        <Card className="card">
+          <CardHeader className="card-header">
             <Avatar>
-              <AvatarImage src="/avatar2.jpg" />
+              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-            <CardTitle>Steve Coco</CardTitle>
-            <CardDescription>Hi, I'm excited to get started...</CardDescription>
+            <div className="chat-preview-text-container">
+              <CardTitle className="chat-user-name">Steve Coco</CardTitle>
+              <CardDescription className="chat-preview">Hi, I'm excited to get started...</CardDescription>
+            </div>
           </CardHeader>
         </Card>
       </div>
 
       {/* Chat Section */}
-      <div className="w-2/3 p-4 flex flex-col">
+      <div className="chat-section">
         {/* Chat Header */}
-        <div className="font-bold text-xl mb-4">Founder-coco Coco</div>
+        <div className="chat-header">Founder-coco Coco</div>
 
         {/* Chat Messages */}
-        <ScrollArea className="flex-1 mb-4">
-          <div className="mb-2">
-            <Avatar>
-              <AvatarImage src="/avatar1.jpg" />
-            </Avatar>
-            <p className="border p-4 rounded-lg">I am technical, passively looking...</p>
+        <ScrollArea className="chat-messages">
+          <div className="message">
+          <Avatar>
+            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarFallback>EN</AvatarFallback>
+          </Avatar>
+            <p className="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
-          <div>
+          <div className="message">
+            <p className="message-content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <Avatar>
-              <AvatarImage src="/avatar2.jpg" />
-            </Avatar>
-            <p className="border p-4 rounded-lg">I am technical, passively looking...</p>
+            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
           </div>
         </ScrollArea>
 
-        <Separator className="my-4" />
+        <Separator className="separator" />
 
         {/* Input and Send Button */}
-        <div className="flex items-center">
-            <Input placeholder="Type anything" className="flex-1 mr-4" />
-            <Button>Send</Button>
+        <div className="input-section">
+          <Input placeholder="Type anything" className="input-field" />
+          <Button>Send</Button>
         </div>
       </div>
     </div>

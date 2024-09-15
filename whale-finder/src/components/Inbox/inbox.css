@@ -1,0 +1,94 @@
+.inbox-container {
+    display: flex;
+    height: 100vh;
+    background-color: #fafafa;
+}
+  
+.sidebar {
+    width: 33%;
+    padding: 16px;
+    border-right: 1px solid #ddd;
+}
+
+.card {
+    margin-bottom: 16px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.CardDescription{
+    color: black;
+}
+
+.chat-section {
+    width: 67%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-preview-text-container {
+    margin: 20px 16px;
+}
+
+.chat-user-name {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.chat-preview {
+    color: black;
+}
+
+.chat-header {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.chat-messages {
+    flex: 1;
+    gap: 16px;
+    background-color: white;
+    margin: 16px 0;
+}
+
+.message {
+    margin: 40px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    align-items: center;
+}
+
+.message-content {
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 0 16px;
+}
+
+.separator {
+    margin: 16px 0;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    flex: 1;
+    margin-right: 16px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
