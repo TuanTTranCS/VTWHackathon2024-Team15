@@ -5,7 +5,6 @@ import styles from "./Logo.module.css";
 function Logo() {
   return (
     <LogoWrapper>
-      <Icon />
       <BrandName />
     </LogoWrapper>
   );
@@ -26,7 +25,7 @@ const Icon = () => {
 const BrandName = () => {
   return (
     <div className={styles.BrandName}>
-      <p>Coco-founder</p>
+      <p >Coco-Founder</p>
     </div>
   );
 };

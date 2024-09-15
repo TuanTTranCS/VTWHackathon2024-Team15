@@ -24,16 +24,14 @@
 }
 
 .discover-btn {
-    border-color: blue;
-    background: blue;
-    color: white;
+
     border-radius: var(--radius);
     margin: 0 80px;
 }
 
 .save-btn {
-    border-color: blue;
-    color: blue;
+    border-color: black;
+    color: black;
     border-radius: var(--radius);
     margin: 0 80px;
 }

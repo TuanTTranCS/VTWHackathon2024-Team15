@@ -10,11 +10,11 @@ const DiscoverProfiles = () => {
     const textEducation= "My education background is in Computer Science and I have a Master's degree in Software Engineering. I have been working in the tech industry for 5 years and have experience in both front-end and back-end development. I have worked in both startups and large companies and have experience in leading teams and managing projects."
     const textCofounder= "I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on. I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on. I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on. I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on. I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on. I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on. I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on. I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on. I'm looking for a co-founder that can fit my requirements and help me in the next project that I'm working on."
     return ( 
-        <div className="grid lg:grid-cols-3 gap-6">
+        <div className="grid lg:grid-cols-3 gap-6 pt-8">
             <Card className="col-span-2 ml-5">
                 <CardHeader className="justify-end flex flex-col items-center">
                     <Avatar className='w-20 h-20 mb-2'>
-                        <AvatarImage/>
+                        <AvatarImage src="https://randomuser.me/api/portraits/men/7.jpg" className="object-cover"/>
                         <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                     <CardTitle className='text-center'>Vincent</CardTitle>

@@ -10,7 +10,7 @@ export default function Dashboard() {
                 <CardContent className="first-card-text">
                     <p>There are <strong>5000</strong> profiles that match your needs!</p>
                 </CardContent>
-                <Button variant="outline" className="discover-btn">Discover profiles</Button>
+                <Button variant="default" className="discover-btn">Discover profiles</Button>
             </Card>
 
             <Card className="dashboard-card">
