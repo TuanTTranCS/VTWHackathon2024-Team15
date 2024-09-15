@@ -15,6 +15,14 @@
     flex-direction: column;
 }
 
+.first-card-text p {
+    color: black;
+}
+
+.second-card-text p {
+    color: black;
+}
+
 .discover-btn {
     border-color: blue;
     background: blue;
