@@ -28,14 +28,14 @@
     background: blue;
     color: white;
     border-radius: var(--radius);
-    margin: 0 40px;
+    margin: 0 80px;
 }
 
 .save-btn {
     border-color: blue;
     color: blue;
     border-radius: var(--radius);
-    margin: 0 40px;
+    margin: 0 80px;
 }
 
 @media (max-width: 768px) {
