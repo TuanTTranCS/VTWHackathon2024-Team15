@@ -12,24 +12,27 @@ export default function Inbox() {
       {/* Sidebar */}
       <div className="sidebar">
         <Card className="card">
-          <CardHeader>
-          <Avatar>
-            <AvatarImage src="https://github.com/shadcn.png" />
-            <AvatarFallback>CN</AvatarFallback>
-          </Avatar>
-
-            <CardTitle className="chat-user-name">Founder-coco Coco</CardTitle>
-            <CardDescription className="chat-preview">Hi, I'm excited to get started...</CardDescription>
+          <CardHeader className="card-header">
+            <Avatar>
+              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarFallback>CN</AvatarFallback>
+            </Avatar>
+            <div className="chat-preview-text-container">
+              <CardTitle className="chat-user-name">Founder-coco Coco</CardTitle>
+              <CardDescription className="chat-preview">Hi, I'm excited to get started...</CardDescription>
+            </div>
           </CardHeader>
         </Card>
         <Card className="card">
-          <CardHeader>
-          <Avatar>
-            <AvatarImage src="https://github.com/shadcn.png" />
-            <AvatarFallback>CN</AvatarFallback>
-          </Avatar>
-            <CardTitle className="chat-user-name">Steve Coco</CardTitle>
-            <CardDescription className="chat-preview">Hi, I'm excited to get started...</CardDescription>
+          <CardHeader className="card-header">
+            <Avatar>
+              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarFallback>CN</AvatarFallback>
+            </Avatar>
+            <div className="chat-preview-text-container">
+              <CardTitle className="chat-user-name">Steve Coco</CardTitle>
+              <CardDescription className="chat-preview">Hi, I'm excited to get started...</CardDescription>
+            </div>
           </CardHeader>
         </Card>
       </div>
@@ -44,7 +47,7 @@ export default function Inbox() {
           <div className="message">
           <Avatar>
             <AvatarImage src="https://github.com/shadcn.png" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarFallback>EN</AvatarFallback>
           </Avatar>
             <p className="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
